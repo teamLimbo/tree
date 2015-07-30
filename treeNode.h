@@ -1,6 +1,6 @@
 
 
-class treeNode {
+class treeNode{
 
 public:
 	

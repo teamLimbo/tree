@@ -1,12 +1,12 @@
-#include "BpTree.h"
+#include "treeNode.h"
 #include <iostream>
 using namespace std;
 
 int main(){
 
-	treeNode tree = treeNode(3, NULL, true);
+	treeNode* tree = new treeNode(3, NULL, true);
 
-	cout<<tree.isLeaf;
+	cout<< tree->isLeaf;
 
 
 	return 0;
